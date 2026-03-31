@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)orbstudiokreatif-creator.github.io/# -->
+<html class="light" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Orbit kreatif studio</title>
+<script src="./GlowPuzzle - Vibrant Color Matching Fun_files/saved_resource"></script>
+<link href="./GlowPuzzle - Vibrant Color Matching Fun_files/css2" rel="stylesheet">
+<link href="./GlowPuzzle - Vibrant Color Matching Fun_files/icon" rel="stylesheet">
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#8B5CF6", // Vibrant Purple from the UI
+                        secondary: "#22C55E", // Bright Green
+                        accent: "#3B82F6", // Blue
+                        "background-light": "#E0F2FE", // Soft Light Blue
+                        "background-dark": "#0F172A",
+                    },
+                    fontFamily: {
+                        display: ["Fredoka", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                    },
+                    boxShadow: {
+                        'game-button': '0 4px 0 #6D28D9',
+                        'game-button-green': '0 4px 0 #15803D',
+                    }
+                },
+            },
+        };
+    </script>
+<style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at center, #bae6fd 0%, #e0f2fe 100%);
+        }
+        .dark .hero-gradient {
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+        }
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .bear-container {
+            position: relative;
+            filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}[type='text'],input:where(:not([type])),[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select{-webkit-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-width:1px;border-radius:0px;padding-top:0.5rem;padding-right:0.75rem;padding-bottom:0.5rem;padding-left:0.75rem;font-size:1rem;line-height:1.5rem;--tw-shadow:0 0 #0000;}[type='text']:focus, input:where(:not([type])):focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);border-color:#2563eb}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit,::-webkit-datetime-edit-year-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-meridiem-field{padding-top:0;padding-bottom:0}select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");background-position:right 0.5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;print-color-adjust:exact}[multiple],[size]:where(select:not([size="1"])){background-image:initial;background-position:initial;background-repeat:unset;background-size:initial;padding-right:0.75rem;print-color-adjust:unset}[type='checkbox'],[type='radio']{-webkit-appearance:none;appearance:none;padding:0;print-color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#6b7280;border-width:1px;--tw-shadow:0 0 #0000}[type='checkbox']{border-radius:0px}[type='radio']{border-radius:100%}[type='checkbox']:focus,[type='radio']:focus{outline:2px solid transparent;outline-offset:2px;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}[type='checkbox']:checked,[type='radio']:checked{border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat}[type='checkbox']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='checkbox']:checked{-webkit-appearance:auto;appearance:auto}}[type='radio']:checked{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");}@media (forced-colors: active) {[type='radio']:checked{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:checked:hover,[type='checkbox']:checked:focus,[type='radio']:checked:hover,[type='radio']:checked:focus{border-color:transparent;background-color:currentColor}[type='checkbox']:indeterminate{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e");border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:center;background-repeat:no-repeat;}@media (forced-colors: active) {[type='checkbox']:indeterminate{-webkit-appearance:auto;appearance:auto}}[type='checkbox']:indeterminate:hover,[type='checkbox']:indeterminate:focus{border-color:transparent;background-color:currentColor}[type='file']{background:unset;border-color:inherit;border-width:0;border-radius:0;padding:0;font-size:unset;line-height:inherit}[type='file']:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.-bottom-10{bottom:-2.5rem}.-left-10{left:-2.5rem}.-right-10{right:-2.5rem}.-top-10{top:-2.5rem}.bottom-0{bottom:0px}.left-0{left:0px}.left-1\/2{left:50%}.right-0{right:0px}.top-0{top:0px}.top-1\/2{top:50%}.-z-0{z-index:0}.z-10{z-index:10}.z-50{z-index:50}.order-1{order:1}.order-2{order:2}.col-span-2{grid-column:span 2 / span 2}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-8{margin-top:2rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-\[9\/19\]{aspect-ratio:9/19}.aspect-square{aspect-ratio:1 / 1}.h-1\/4{height:25%}.h-10{height:2.5rem}.h-12{height:3rem}.h-16{height:4rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-32{height:8rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-8{height:2rem}.h-\[120\%\]{height:120%}.h-auto{height:auto}.h-full{height:100%}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-2{width:0.5rem}.w-24{width:6rem}.w-28{width:7rem}.w-32{width:8rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-64{width:16rem}.w-8{width:2rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-\[300px\]{max-width:300px}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xl{max-width:36rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-16{gap:4rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:2rem}.rounded-3xl{border-radius:1.5rem}.rounded-\[2\.5rem\]{border-radius:2.5rem}.rounded-\[3rem\]{border-radius:3rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:1.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-\[8px\]{border-width:8px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-primary\/20{border-color:rgb(139 92 246 / 0.2)}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42 / var(--tw-border-opacity, 1))}.border-white\/60{border-color:rgb(255 255 255 / 0.6)}.bg-accent{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6 / var(--tw-bg-opacity, 1))}.bg-background-light{--tw-bg-opacity:1;background-color:rgb(224 242 254 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(139 92 246 / var(--tw-bg-opacity, 1))}.bg-primary\/10{background-color:rgb(139 92 246 / 0.1)}.bg-primary\/20{background-color:rgb(139 92 246 / 0.2)}.bg-primary\/5{background-color:rgb(139 92 246 / 0.05)}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-secondary\/10{background-color:rgb(34 197 94 / 0.1)}.bg-secondary\/20{background-color:rgb(34 197 94 / 0.2)}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254 / var(--tw-bg-opacity, 1))}.bg-sky-200{--tw-bg-opacity:1;background-color:rgb(186 230 253 / var(--tw-bg-opacity, 1))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240 / var(--tw-bg-opacity, 1))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/40{background-color:rgb(255 255 255 / 0.4)}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21 / var(--tw-bg-opacity, 1))}.fill-blue-600{fill:#2563eb}.fill-green-400{fill:#4ade80}.fill-green-500{fill:#22c55e}.fill-indigo-300{fill:#a5b4fc}.fill-indigo-400{fill:#818cf8}.fill-pink-400{fill:#f472b6}.fill-pink-500{fill:#ec4899}.fill-primary{fill:#8B5CF6}.fill-purple-500{fill:#a855f7}.fill-sky-400{fill:#38bdf8}.fill-yellow-400{fill:#facc15}.stroke-white{stroke:#fff}.stroke-\[6\]{stroke-width:6}.stroke-\[8\]{stroke-width:8}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-10{padding-bottom:2.5rem}.pb-24{padding-bottom:6rem}.pt-12{padding-top:3rem}.pt-20{padding-top:5rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-\[1\.1\]{line-height:1.1}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-accent{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(139 92 246 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8 / var(--tw-text-opacity, 1))}.opacity-70{opacity:0.7}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-game-button{--tw-shadow:0 4px 0 #6D28D9;--tw-shadow-colored:0 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-game-button-green{--tw-shadow:0 4px 0 #15803D;--tw-shadow-colored:0 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-2xl{--tw-blur:blur(40px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[100px\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[120px\]{--tw-blur:blur(120px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.invert{--tw-invert:invert(100%);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-0\.5:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-800:hover{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.hover\:text-primary:hover{--tw-text-opacity:1;color:rgb(139 92 246 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.active\:translate-y-0\.5:active{--tw-translate-y:0.125rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:translate-y-1:active{--tw-translate-y:0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.dark\:border-slate-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.dark\:border-slate-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.dark\:bg-background-dark:is(.dark *){--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.dark\:bg-primary\/10:is(.dark *){background-color:rgb(139 92 246 / 0.1)}.dark\:bg-slate-700:is(.dark *){--tw-bg-opacity:1;background-color:rgb(51 65 85 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-800\/50:is(.dark *){background-color:rgb(30 41 59 / 0.5)}.dark\:bg-slate-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.dark\:bg-slate-900\/80:is(.dark *){background-color:rgb(15 23 42 / 0.8)}.dark\:bg-slate-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}.dark\:text-slate-100:is(.dark *){--tw-text-opacity:1;color:rgb(241 245 249 / var(--tw-text-opacity, 1))}.dark\:text-slate-300:is(.dark *){--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.dark\:text-slate-400:is(.dark *){--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:w-auto{width:auto}.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:p-12{padding:3rem}}@media (min-width: 1024px){.lg\:order-1{order:1}.lg\:order-2{order:2}.lg\:mx-0{margin-left:0px;margin-right:0px}.lg\:flex-row{flex-direction:row}.lg\:justify-start{justify-content:flex-start}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-left{text-align:left}.lg\:text-5xl{font-size:3rem;line-height:1}.lg\:text-6xl{font-size:3.75rem;line-height:1}.lg\:text-7xl{font-size:4.5rem;line-height:1}}</style></head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-100 transition-colors duration-300">
+<nav class="sticky top-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center gap-2">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg">
+<span class="material-icons text-2xl">extension</span>
+</div>
+<span class="text-2xl font-bold tracking-tight text-primary">GlowPuzzle</span>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-medium hover:text-primary transition-colors" href="https://orbstudiokreatif-creator.github.io/#">Home</a>
+<a class="font-medium hover:text-primary transition-colors" href="https://orbstudiokreatif-creator.github.io/#how-to-play">How to Play</a>
+<a class="font-medium hover:text-primary transition-colors" href="https://orbstudiokreatif-creator.github.io/#leaderboard">Leaderboard</a>
+<a class="bg-primary text-white px-6 py-2.5 rounded-full font-bold shadow-game-button hover:-translate-y-0.5 active:translate-y-0.5 transition-all" href="https://orbstudiokreatif-creator.github.io/#">Download</a>
+</div>
+<div class="md:hidden">
+<button class="p-2 text-slate-600 dark:text-slate-300">
+<span class="material-icons">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<header class="hero-gradient pt-12 pb-24 px-4 overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+<div class="flex-1 text-center lg:text-left">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-slate-800 shadow-sm border border-slate-200 dark:border-slate-700 mb-6">
+<span class="flex h-2 w-2 rounded-full bg-secondary"></span>
+<span class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">New Level: Arctic Bear Pack</span>
+</div>
+<h1 class="text-5xl lg:text-7xl font-bold text-slate-900 dark:text-white leading-[1.1] mb-6">
+                    A World of <span class="text-primary">Colorful</span> Puzzles
+                </h1>
+<p class="text-xl text-slate-600 dark:text-slate-400 mb-10 max-w-xl mx-auto lg:mx-0">
+                    Melt glass, clear holes, and solve hundreds of vibrant puzzles in the most satisfying casual game of the year.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+<button class="w-full sm:w-auto px-10 py-5 bg-primary text-white text-xl font-bold rounded-2xl shadow-game-button hover:-translate-y-1 active:translate-y-1 transition-all flex items-center justify-center gap-3">
+<span class="material-icons">play_arrow</span>
+                        PLAY NOW
+                    </button>
+<button class="w-full sm:w-auto px-10 py-5 bg-white dark:bg-slate-800 text-slate-700 dark:text-white text-xl font-bold rounded-2xl border-2 border-slate-200 dark:border-slate-700 hover:bg-slate-50 transition-all flex items-center justify-center gap-3">
+<span class="material-icons">video_library</span>
+                        WATCH TRAILER
+                    </button>
+</div>
+</div>
+<div class="flex-1 relative">
+<div class="float-animation bear-container mx-auto" style="transform: translateY(0px);">
+<svg class="w-full max-w-md mx-auto" viewBox="0 0 500 500">
+<circle class="fill-yellow-400 stroke-white stroke-[8]" cx="250" cy="200" r="100"></circle>
+<circle class="fill-green-500 stroke-white stroke-[8]" cx="160" cy="130" r="45"></circle>
+<circle class="fill-green-400 stroke-white stroke-[8]" cx="340" cy="130" r="45"></circle>
+<path class="fill-primary stroke-white stroke-[8]" d="M150 280 C 150 280, 100 450, 250 450 C 400 450, 350 280, 350 280 Z"></path>
+<circle class="fill-sky-400" cx="160" cy="130" r="15"></circle>
+<circle class="fill-pink-400" cx="340" cy="130" r="15"></circle>
+<circle class="fill-blue-600" cx="210" cy="180" r="15"></circle>
+<circle class="fill-indigo-300" cx="290" cy="180" r="15"></circle>
+<circle class="fill-indigo-400 stroke-white stroke-[6]" cx="250" cy="230" r="40"></circle>
+<circle class="fill-pink-500 stroke-white stroke-[8]" cx="180" cy="420" r="45"></circle>
+<circle class="fill-purple-500 stroke-white stroke-[8]" cx="320" cy="420" r="45"></circle>
+</svg>
+</div>
+<div class="absolute -top-10 -right-10 w-24 h-24 bg-secondary/20 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-10 -left-10 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
+</div>
+</div>
+</header>
+<section class="py-24 bg-white dark:bg-slate-900" id="how-to-play">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4">Unique Game Mechanics</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg">Master the art of dismantling complex glass structures.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-[2.5rem] border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-shadow group">
+<div class="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mb-6 shadow-game-button group-hover:scale-110 transition-transform">
+<span class="material-icons text-3xl">science</span>
+</div>
+<h3 class="text-2xl font-bold mb-3">Melt Glass</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Use chemical solutions to dissolve specific glass layers. Strategize your sequence to unlock deeper levels.
+                    </p>
+</div>
+<div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-[2.5rem] border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-shadow group">
+<div class="w-16 h-16 bg-secondary text-white rounded-2xl flex items-center justify-center mb-6 shadow-game-button-green group-hover:scale-110 transition-transform">
+<span class="material-icons text-3xl">build</span>
+</div>
+<h3 class="text-2xl font-bold mb-3">Clear Pegs</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Remove pegs one by one to let pieces fall. Watch the physics-based puzzles come to life with every move.
+                    </p>
+</div>
+<div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-[2.5rem] border border-slate-100 dark:border-slate-700 hover:shadow-xl transition-shadow group">
+<div class="w-16 h-16 bg-accent text-white rounded-2xl flex items-center justify-center mb-6 shadow-game-button group-hover:scale-110 transition-transform" style="box-shadow: 0 4px 0 #1E40AF;">
+<span class="material-icons text-3xl">auto_awesome</span>
+</div>
+<h3 class="text-2xl font-bold mb-3">Infinite Levels</h3>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Over 500+ handcrafted levels ranging from cute animals to architectural wonders. Never run out of challenges.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-slate-800/50">
+<div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-16">
+<div class="flex-1 order-2 lg:order-1">
+<div class="relative max-w-[300px] mx-auto">
+<div class="relative z-10 border-[8px] border-slate-900 dark:border-slate-700 rounded-[3rem] shadow-2xl bg-white overflow-hidden aspect-[9/19]">
+<div class="h-full w-full flex flex-col">
+<div class="bg-sky-200 h-1/4 p-4 flex flex-col gap-4">
+<div class="flex justify-between items-center">
+<div class="w-10 h-10 bg-secondary rounded-lg"></div>
+<div class="w-10 h-10 bg-primary rounded-lg"></div>
+<div class="w-10 h-10 bg-slate-400 rounded-lg"></div>
+<div class="w-10 h-10 bg-slate-400 rounded-lg"></div>
+</div>
+<div class="flex justify-center gap-2">
+<div class="w-4 h-4 rounded-full bg-slate-300"></div>
+<div class="w-4 h-4 rounded-full bg-slate-300"></div>
+<div class="w-4 h-4 rounded-full bg-slate-300"></div>
+<div class="w-4 h-4 rounded-full bg-slate-300"></div>
+</div>
+</div>
+<div class="flex-1 bg-sky-100 flex items-center justify-center p-6">
+<div class="w-full aspect-square bg-white/40 rounded-3xl border-4 border-dashed border-white/60"></div>
+</div>
+<div class="p-4 bg-sky-200 flex gap-2 justify-between">
+<div class="flex-1 h-12 bg-primary rounded-xl shadow-game-button"></div>
+<div class="flex-1 h-12 bg-primary rounded-xl shadow-game-button"></div>
+<div class="flex-1 h-12 bg-primary rounded-xl shadow-game-button"></div>
+</div>
+</div>
+</div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[120%] bg-primary/20 blur-[100px] -z-0"></div>
+</div>
+</div>
+<div class="flex-1 order-1 lg:order-2">
+<h2 class="text-4xl lg:text-5xl font-bold mb-8">Stunning Visuals on Any Device</h2>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 rounded-xl bg-white dark:bg-slate-700 flex items-center justify-center text-primary shadow-sm">
+<span class="material-icons">palette</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-1">Vibrant Color Palettes</h4>
+<p class="text-slate-600 dark:text-slate-400">Eye-catching colors designed to reduce eye strain while providing a joyful experience.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 rounded-xl bg-white dark:bg-slate-700 flex items-center justify-center text-secondary shadow-sm">
+<span class="material-icons">touch_app</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-1">Intuitive Controls</h4>
+<p class="text-slate-600 dark:text-slate-400">Simple one-tap mechanics that anyone can pick up, but difficult to master.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-12 h-12 shrink-0 rounded-xl bg-white dark:bg-slate-700 flex items-center justify-center text-accent shadow-sm">
+<span class="material-icons">cloud_done</span>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-1">Cloud Sync</h4>
+<p class="text-slate-600 dark:text-slate-400">Play on your phone during your commute and continue on your tablet at home.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-slate-900" id="leaderboard">
+<div class="max-w-4xl mx-auto px-4">
+<div class="bg-primary/5 dark:bg-primary/10 rounded-[3rem] p-8 md:p-12 border-2 border-primary/20">
+<div class="text-center mb-10">
+<span class="material-icons text-5xl text-yellow-500 mb-4">emoji_events</span>
+<h2 class="text-3xl font-bold">Top Solvers</h2>
+</div>
+<div class="space-y-4">
+<div class="bg-white dark:bg-slate-800 p-4 rounded-2xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center font-bold text-white">1</div>
+<div class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full"></div>
+<div>
+<h5 class="font-bold">PuzzleMaster99</h5>
+<p class="text-sm text-slate-500">4,250 Levels Cleared</p>
+</div>
+</div>
+<div class="text-right">
+<span class="text-primary font-bold">98,400 pts</span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-2xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-slate-300 rounded-full flex items-center justify-center font-bold text-white">2</div>
+<div class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full"></div>
+<div>
+<h5 class="font-bold">GlassQueen</h5>
+<p class="text-sm text-slate-500">3,980 Levels Cleared</p>
+</div>
+</div>
+<div class="text-right">
+<span class="text-primary font-bold">92,150 pts</span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800 p-4 rounded-2xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 bg-amber-600 rounded-full flex items-center justify-center font-bold text-white">3</div>
+<div class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full"></div>
+<div>
+<h5 class="font-bold">PixelMover</h5>
+<p class="text-sm text-slate-500">3,420 Levels Cleared</p>
+</div>
+</div>
+<div class="text-right">
+<span class="text-primary font-bold">85,300 pts</span>
+</div>
+</div>
+</div>
+<div class="mt-8 text-center">
+<button class="text-primary font-bold flex items-center gap-2 mx-auto hover:underline">
+                        View Full Leaderboard
+                        <span class="material-icons">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 overflow-hidden relative">
+<div class="max-w-7xl mx-auto px-4 text-center">
+<div class="relative z-10">
+<h2 class="text-4xl lg:text-6xl font-bold mb-6">Ready to start matching?</h2>
+<p class="text-xl text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto">
+                    Download GlowPuzzle today and join millions of players in the most colorful puzzle adventure.
+                </p>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-2xl hover:bg-slate-800 transition-colors" href="https://orbstudiokreatif-creator.github.io/#">
+<img alt="Apple logo" class="w-6 h-6 invert" src="./GlowPuzzle - Vibrant Color Matching Fun_files/unnamed.png">
+<div class="text-left">
+<div class="text-[10px] uppercase font-bold opacity-70">Download on the</div>
+<div class="text-lg font-bold leading-none">App Store</div>
+</div>
+</a>
+<a class="flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-2xl hover:bg-slate-800 transition-colors" href="https://orbstudiokreatif-creator.github.io/#">
+<img alt="Google Play logo" class="w-28 h-auto" src="./GlowPuzzle - Vibrant Color Matching Fun_files/unnamed(1).png">
+</a>
+</div>
+</div>
+<div class="absolute top-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-0 right-0 w-64 h-64 bg-secondary/10 rounded-full blur-[120px]"></div>
+</div>
+</section>
+<footer class="bg-slate-50 dark:bg-slate-950 pt-20 pb-10 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4">
+<div class="grid md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-2">
+<div class="flex items-center gap-2 mb-6">
+<div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white">
+<span class="material-icons text-xl">extension</span>
+</div>
+<span class="text-2xl font-bold text-primary">GlowPuzzle</span>
+</div>
+<p class="text-slate-500 dark:text-slate-400 max-w-sm mb-6">
+                        Crafting colorful experiences and satisfying challenges for gamers everywhere. Join our vibrant community!
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:text-primary transition-colors border border-slate-200 dark:border-slate-700" href="https://orbstudiokreatif-creator.github.io/#">
+<span class="material-icons">facebook</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:text-primary transition-colors border border-slate-200 dark:border-slate-700" href="https://orbstudiokreatif-creator.github.io/#">
+<span class="material-icons text-xl">share</span>
+</a>
+</div>
+</div>
+<div>
+<h6 class="font-bold mb-6">Game</h6>
+<ul class="space-y-4 text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">How to Play</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Levels</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Daily Challenges</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Leaderboard</a></li>
+</ul>
+</div>
+<div>
+<h6 class="font-bold mb-6">Support</h6>
+<ul class="space-y-4 text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Help Center</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Terms of Service</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Privacy Policy</a></li>
+<li><a class="hover:text-primary" href="https://orbstudiokreatif-creator.github.io/#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="text-center pt-8 border-t border-slate-200 dark:border-slate-800 text-slate-400 text-sm">
+<p>© 2024 GlowPuzzle Games. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Optional: Simple scroll animation for the hero bear
+        window.addEventListener('scroll', () => {
+            const bear = document.querySelector('.bear-container');
+            const scrolled = window.pageYOffset;
+            bear.style.transform = `translateY(${scrolled * 0.1}px)`;
+        });
+    </script>
+
+</body></html>
